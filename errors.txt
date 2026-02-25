@@ -1,0 +1,16 @@
+src/components/Cursor.tsx(8,15): error TS2345: Argument of type '() => () => boolean' is not assignable to parameter of type 'EffectCallback'.
+  Type '() => boolean' is not assignable to type 'void | Destructor'.
+    Type '() => boolean' is not assignable to type 'Destructor'.
+      Type 'boolean' is not assignable to type 'void | { [UNDEFINED_VOID_ONLY]: never; }'.
+src/components/Window.tsx(1,36): error TS6133: 'useState' is declared but its value is never read.
+src/components/Window.tsx(3,10): error TS1484: 'WindowState' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/Window.tsx(47,15): error TS2345: Argument of type '() => () => boolean' is not assignable to parameter of type 'EffectCallback'.
+  Type '() => boolean' is not assignable to type 'void | Destructor'.
+    Type '() => boolean' is not assignable to type 'Destructor'.
+      Type 'boolean' is not assignable to type 'void | { [UNDEFINED_VOID_ONLY]: never; }'.
+src/components/WindowSystem.tsx(2,23): error TS1484: 'WindowState' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/WindowSystem.tsx(24,15): error TS2345: Argument of type '() => () => boolean' is not assignable to parameter of type 'EffectCallback'.
+  Type '() => boolean' is not assignable to type 'void | Destructor'.
+    Type '() => boolean' is not assignable to type 'Destructor'.
+      Type 'boolean' is not assignable to type 'void | { [UNDEFINED_VOID_ONLY]: never; }'.
+src/hooks/useGestureTracking.ts(2,17): error TS1484: 'Results' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
