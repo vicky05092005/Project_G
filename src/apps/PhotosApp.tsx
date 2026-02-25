@@ -3,12 +3,12 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Maximize2, Minimize2 } from 'lucide-react';
 
 const IMAGES = [
-    'public/images/college.jpeg?w=800',
-    'public/images/college1.jpeg?w=800',
-    'public/images/college3.png?w=800',
-    'public/images/college4.png?w=800',
-    'public/images/college5.jpeg?w=800',
-    'public/images/bts.jpeg?w=800'
+  '/images/college.jpeg',
+  '/images/college1.jpeg',
+  '/images/college3.png',
+  '/images/college4.png',
+  '/images/college5.jpeg',
+  '/images/bts.jpeg'
 ];
 
 export function PhotosApp() {
